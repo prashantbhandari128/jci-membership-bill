@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="image/favicon/site.webmanifest">
+    <title>JCI | Membership Bill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="membership-bill">
+        <img id="birta-logo" src="image/Birata.svg" alt="Birata Logo">
+        <h3>Membership Bill</h3>
+        <div class="bill-info-container">
+            <div class="invoice-customer-info">
+                <div><strong>Invoice Number :</strong> ABC123</div>
+                <div><strong>Member :</strong> Ram Dahal</div>
+                <div><strong>Designation :</strong> Technical Staff</div>
+            </div>
+            <div class="invoice-info">
+                <div><strong>Date :</strong> 2034-01-23</div>
+                <div><strong>Contact :</strong> 9815645756</div>
+                <div><strong>Fiscal Year :</strong> Fiscal year 1</div>
+            </div>
+        </div>
+        <div class="bill-details">
+            <p class="bill-message">This is a sample message for the membership bill.</p>
+            <p class="bill-amount-number">Rs 100.00</p>
+            <p class="bill-amount-word"><i><strong>One Hundred Only</strong></i></p>
+        </div>
+        <div class="signature-container">
+            <div class="president-signature"></div>
+            <div class="treasurer-signature"></div>
+        </div>
+        <div class="signature-title-container">
+            <div>
+                <strong>President</strong>
+                <p>Kishan Gupta</p>
+            </div>
+            <div>
+                <strong>Treasurer</strong>
+                <p>Hari Bhandari</p>
+            </div>
+        </div>
+    </div>
+
+    <button id="printButton" onclick="printBill()">Print</button>
+    <script src="main.js"></script>
+</body>
+
+</html>

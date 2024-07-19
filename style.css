@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.membership-bill {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #3f3e3e;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#birta-logo {
+    display: block;
+    margin: auto;
+    height: 70px;
+    width: 200px;
+}
+
+h3 {
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.bill-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.invoice-customer-info,
+.invoice-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.bill-details {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bill-details p {
+    margin: 10px 0;
+}
+
+.bill-message {
+    font-style: italic;
+    color: #555;
+}
+
+.bill-amount-number {
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #e74c3c;
+    margin: 0;
+}
+
+.bill-amount-word {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 0;
+}
+
+.signature-title-container,
+.signature-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.president-signature,
+.treasurer-signature {
+    width: 20%;
+    height: 1px;
+    background-color: #333;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+@media print {
+    button {
+        display: none;
+    }
+
+    body {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+}
